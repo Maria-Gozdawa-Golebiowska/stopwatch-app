@@ -1,0 +1,47 @@
+@import "/src/styles/settings.scss";
+
+
+.button {
+    background-color: $color-success;
+    color: $color-light;
+    border: none; 
+    padding: 15px 25px; 
+    margin-right: 15px;
+    margin-left: 20px; 
+    margin-top: 50px;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  .button:hover {
+    background-color: #45a049;
+  }
+
+  .button span {
+    font-weight: bold;
+    text-transform: uppercase; 
+  }
+  
+  .numbers span{
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-right: 15px;
+    margin-left: 70px; 
+    margin-top: 90px;
+  }
+
+  body {
+    background-color: $color-dark;
+    color: #fff; 
+  }
+  
+  .app {
+    background-color: #222; 
+    color: #fff; 
+  }
+  
+  h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    padding-left: 90px;
+  }
